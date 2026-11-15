@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMALDEV | Digital Solutions</title>
+<meta name="description" content="AMALDEV is an independent digital development brand based in Kerala, India, creating mobile applications and games.">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8fafc;
+    color: #1e293b;
+    line-height: 1.7;
+}
+
+header {
+    background: #101c35;
+    color: white;
+    padding: 22px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 27px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.hero {
+    background: linear-gradient(135deg, #101c35, #176b87);
+    color: white;
+    text-align: center;
+    padding: 110px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 650px;
+    margin: auto;
+    color: #e2e8f0;
+}
+
+section {
+    padding: 65px 8%;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: #101c35;
+}
+
+.about {
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+}
+
+.services {
+    background: #edf3f8;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+    margin: 12px 0;
+    color: #176b87;
+}
+
+.icon {
+    font-size: 38px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact p {
+    margin: 12px;
+}
+
+.contact a {
+    color: #176b87;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background: #101c35;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
+
+@media(max-width:600px) {
+    header {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 0 8px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">AMALDEV</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero" id="home">
+    <h1>Welcome to AMALDEV</h1>
+    <p>
+        Creating digital experiences through innovative
+        mobile applications, games and technology solutions.
+    </p>
+</div>
+
+<section id="about">
+    <h2 class="section-title">About Us</h2>
+    <div class="about">
+        <p>
+            AMALDEV is an independent digital development brand
+            based in Kerala, India. We focus on creating digital
+            products, mobile applications and interactive gaming
+            experiences.
+        </p>
+        <p>
+            Our goal is to develop accessible, useful and engaging
+            digital experiences using modern technology.
+        </p>
+    </div>
+</section>
+
+<section class="services" id="services">
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">📱</div>
+            <h3>Mobile Applications</h3>
+            <p>
+                Development of Android applications
+                and user-friendly digital products.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🎮</div>
+            <h3>Game Development</h3>
+            <p>
+                Creating interactive mobile games
+                and HTML5 gaming experiences.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="icon">💻</div>
+            <h3>Digital Solutions</h3>
+            <p>
+                Developing digital experiences
+                and technology-based solutions.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+
+    <div class="contact">
+        <p><strong>Business Name:</strong> AMALDEV</p>
+        <p><strong>Location:</strong> Kerala, India</p>
+
+        <p>
+            <strong>Email:</strong>
+            <a href="mailto:contactmemorymerchant@gmail.com">
+                contactmemorymerchant@gmail.com
+            </a>
+        </p>
+
+        <p>
+            <strong>Phone:</strong>
+            <a href="tel:+919747843418">
+                +91 9747843418
+            </a>
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 AMALDEV. All Rights Reserved.</p>
+    <p>Kerala, India</p>
+</footer>
+
+</body>
+</html>
